@@ -19,14 +19,16 @@ namespace WpfEdf
     /// </summary>
     public partial class controlleur : Window
     {
-        public controlleur()
+        edfEntities gst;
+        public controlleur(edfEntities gstBDD)
         {
             InitializeComponent();
+            gst = gstBDD;
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-
+            //lstClients.ItemsSource = gst.client.ToList();
         }
     }
 }

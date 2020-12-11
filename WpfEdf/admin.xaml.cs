@@ -41,6 +41,7 @@ namespace WpfEdf
             {
                 //List<client> lesClients = gst.client.ToList();
                 //var ajoutClient = from a in lesClients
+                //                  where a.idcontroleur = (lstControleurs.SelectedItem as controleur).id
                 //                  ;
 
                 //    je n'ai pas reussi a trouver comment insérer un client

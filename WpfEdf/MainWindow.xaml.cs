@@ -55,7 +55,7 @@ namespace WpfEdf
                 }
                 else
                 {
-                    controlleur frm = new controlleur();
+                    controlleur frm = new controlleur(gst);
                     frm.Show();
                 }
             }
