@@ -41,6 +41,7 @@ namespace WpfEdf
             {
                 //List<client> lesClients = gst.client.ToList();
                 //var ajoutClient = from a in lesClients
+                //                  ;
 
                 //    je n'ai pas reussi a trouver comment insérer un client
 
@@ -62,6 +63,7 @@ namespace WpfEdf
             {
                 //List<controleur> lesControleurs = gst.controleur.ToList();
                 //var ajoutControleur = from a in lesControleurs
+                //                      ;
 
                 //    je n'ai pas reussi a trouver comment insérer un controlleur
                                       
@@ -77,7 +79,7 @@ namespace WpfEdf
                                         where gst.client.ToList().FindAll(i => i.identifiant == (lstControleurs.SelectedItem as controleur).id).Any(ins => ins.identifiant == a.idcontroleur)
                                         select a;
 
-                //var derReleve = from b in gst.client.ToList()
+                //var derReleve = from b in gst.client.ToList() 
                 //                select b.dernierReleve;
                 //var ancReleve = from c in gst.client.ToList()
                 //                select c.ancienReleve;
